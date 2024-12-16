@@ -1,10 +1,10 @@
 terraform { 
-  cloud { 
+  cloud {
     
-    organization = "axels-personal-organization" 
+    organization = "axels-personal-organization"
 
     workspaces { 
-      name = "fem-eci-tfe" 
+      name = "fem-eci-tfe-axel"
     } 
   } 
 }
