@@ -8,9 +8,9 @@ locals {
   workspace = {
     "axels-eci-tfe" = {
         description = "Example description of workspace"
-        execution_mode = "local"
+        execution_mode = "remote"
         project_id = module.project["axels-eci-project"].id
-        # vcs_repo_identifier = "axelNolasco/fem-eci-terraform-tfe"
+        vcs_repo_identifier = "axelNolasco/fem-eci-terraform-tfe"
     }
   }
 }
